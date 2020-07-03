@@ -7,7 +7,64 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.count-area {
+  width: 75%;
+  text-align: center;
+  padding: 1em;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+
+.count-area .country {
+  text-align: center;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #a0a0a0;
+  padding-bottom: 24px;
+}
+.count-area .country h1 span {
+  color: darkviolet;
+  text-transform: uppercase;
+}
+.count-area .country h3 {
+  margin: 10px 0;
+}
+.count-area .country h3 span {
+  color: crimson;
+  font-size: 30px;
+  margin: 0 8px;
+}
+
+.count-area .counter {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.count-area .counter span {
+  color: blueviolet;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.count-area button {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 8px;
+  outline: none;
+  cursor: pointer;
+}
+
+.count-area #subtract {
+  background-color: orangered;
+}
+.count-area #add {
+  background-color: dodgerblue;
 }
